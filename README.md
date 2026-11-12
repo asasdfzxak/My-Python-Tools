@@ -3,6 +3,7 @@
 ## 包含工具
 1. **Excel 批量合并助手**：基于 pandas，支持表头一致性校验、空行清理、异常跳过。
 2. **证件照/报名照处理助手**：基于 Pillow，支持二分查找压缩、居中裁剪、纯色背景替换。
+3. **极客系统监控悬浮窗**：基于 psutil，无边框半透明桌面挂件，实时显示 CPU、内存与网速。
 ## 运行方式
 1. 安装依赖：
 `pip install -r requirements.txt`
@@ -17,3 +18,4 @@
 ![Excel UI](assets/excel_ui.png)
 ![Excel Success](assets/excel_success.png)
 ![Photo Success](assets/photo_success.png)
+![Sys Monitor](assets/sys_monitor.png)
